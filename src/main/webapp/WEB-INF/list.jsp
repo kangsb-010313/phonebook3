@@ -38,12 +38,12 @@
 					</tr>
 					<tr>
 						<td>
-							<a href = "http://localhost:8080/pbook3/pbc?action=mform&no=">
-								[수정폼으로 이동]
+							<a href = "${pageContext.request.contextPath}/pbc?action=mform&no=${personVO.personId}">
+							[수정폼으로 이동]
 							</a>
 						</td>
 						<td>
-							<a href= "http://localhost:8080/pbook3/pbc?action=delete&no=">
+							<a href= "${pageContext.request.contextPath}/pbc?action=delete&no=${personVO.personId}">
 							[삭제]
 							</a>
 						</td>	 <!-- 원래 버튼으로 해야된다. 자바스크립트필요. 안배워서 a태그로 구현 -->
@@ -57,7 +57,7 @@
 		
 		[주소록 작성폼 이동] : 주소창에 aaa.html 입력하시고 엔터입력
 		<br>
-		<a href= "http://localhost:8080/pbook3/pbc?action=wform">주소록 작성폼 이동</a>
+		<a href= "${pageContext.request.contextPath}/pbc?action=wform">주소록 작성폼 이동</a>
 
 	
 
