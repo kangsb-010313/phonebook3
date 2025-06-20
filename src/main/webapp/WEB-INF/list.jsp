@@ -55,7 +55,6 @@
 		</c:forEach>
 
 		
-		[주소록 작성폼 이동] : 주소창에 aaa.html 입력하시고 엔터입력
 		<br>
 		<a href= "${pageContext.request.contextPath}/pbc?action=wform">주소록 작성폼 이동</a>
 
